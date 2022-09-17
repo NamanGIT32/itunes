@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    /* width: 1800px; */
+}
+#nav{   
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 100%;
+    font-family: sans-serif;
+    background-color:#333;
+    position: fixed;
+    z-index: 1;
+    /* display: ; */
+}
+
+#nav ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+ul li:hover{
+    transform: scale(1.1);
+}
+#nav_sec{
+    /* border: 1px solid green; */
+    width: 35%;
+    height: 100%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+
+/* This is secton 2 */
+#section2{
+    /* border: 2px double green; */
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 93vh;
+    background: url(img/946948-bigthumbnail.webp) no-repeat center center/cover;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec_2_1{
+    /* border: 1px solid yellow; */
+    width:88%;
+    height: 300px;
+    display: flex;
+    flex-direction:column;
+}
+.sec_2_2{
+    /* border: 1px solid red ; */
+    text-align: center;
+}
+.name1{
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.name2{
+    font-size: 30px;
+    margin-top: 40px;
+}
+.name3{
+    font-size: 22px;
+    margin-top: 35px; 
+    line-height: 1.4; 
+}
+/* this is section 3 */
+#section3{
+    /* border: 2px solid red; */
+    height: 1100px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+#section3 h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 47px;
+    font-weight: 700;
+}
+#section3 h3{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 33px;
+}
+#section3 p{
+    text-align: center;
+    width: 88%;
+    margin: auto;
+    margin-top: 45px;
+    font-size: 20px;
+    line-height: 29px;
+}
+#section3 div{
+    margin-top: 30px;
+    text-align: center;
+}
+#section3 #btn1{
+    height: 65px;
+    width: 160px;
+    background-color: darkred;
+    color: white;
+    font-size: 19px;
+    border: 2px solid darkred;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+}
+#section3 #btn1:hover{
+    background-color: rgb(180, 0, 0);
+    cursor: pointer;
+}
+#section_3_1{
+    /* border: 2px solid red; */
+    height: 550px;
+    width: 72%;
+    margin: auto;
+}
+.img1{
+    border-radius:15px;
+    height: 550px;
+    width: 100%;
+}
+/* This is section 4 */
+#section4{
+    /* border: 2px solid green; */
+    height: 600px;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+}
+#section_4_1{
+    /* border: 1px solid black; */
+    width: 35%;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section_4_2{
+    /* border: 1px solid black; */
+    width: 65%;
+    height:500px ;
+    text-align: center;
+}
+#section_4_2 h1{
+    margin-top: 30px;
+    font-size: 7vh;
+    color: rgb(54, 51, 51);
+    font-weight: 600;
+}
+#section_4_2 div{
+    text-align: justify;
+    margin-top: 40px;
+    font-size:3vh;
+    font-family:sans-serif;
+    color: rgb(54, 51, 51);
+    font-weight: 300;
+    font-size: 22px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.img2{
+    height: 450px;
+    width:400px;
+    border-radius:4px;
+}
+#btn2::before{
+    content: ' ';
+    position:relative;
+    
+    height: 10vh;
+    width: 25vh;
+    background: linear-gradient(red,yellow);
+    z-index: -1;
+}
+#btn2{
+    color: white;
+    margin-top: 50px;
+    height: 9vh;
+    width: 23vh;
+    border: none;
+    background-color: #4CAF50;
+    border-radius: 4px;
+    font-size: 20px;
+    transition-duration: 0.3s;
+
+}
+#btn2:hover{
+    box-shadow:1px 13px 20px 0px rgba(0, 0, 0, 0.363);   
+}
+
+/* this is section 5 */
+#section5{
+    /* border: 2px solid red; */
+    background-color: black;
+    margin: auto;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* This is box-1 */
+#box1{
+    color: white;
+    padding: 20px;
+    border: 2px solid green;
+    width: 25%;
+    height: 350px;  
+    box-shadow: 2px 2px 14px 0px rgb(134, 132, 132);
+}
+#box1 h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+#box_1_1{
+    color: blue;
+    font-weight: 600;
+}
+#box_1_2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+#btn3{
+    border: none;
+    margin-top: 50px;
+    width: 100%;
+    height: 45px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color:#21cdaa;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#btn3:hover{
+    color: white;
+}
+#btn4{
+    border: none;
+    margin-top: 5px;
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:whitesmoke;
+    border: 2px solid black;
+    cursor: pointer;
+    transition-property: backgroung-color;
+    transition-duration: 8s;
+    transition-timing-function: ease-in-out;
+}
+#btn4:hover{
+    background-color: #0a1931 ;
+    color: white;
+}
+/* this is box-2 */
+#box2{
+    color: white;
+    padding: 20px;
+    border: 2px solid green;
+    width: 25%;
+    height: 350px;   
+    box-shadow: 2px 2px 14px 0px rgb(134, 132, 132);
+}
+#box2 h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+#box_2_1{
+    color: blue;
+    font-weight: 600;
+}
+#box_2_2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+#btn5{
+    border: none;
+    margin-top: 50px;
+    width: 100%;
+    height: 45px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color:#21cdaa;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#btn5:hover{
+    color: white;
+}
+#btn6{
+    border: none;
+    margin-top: 5px;
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:whitesmoke;
+    border: 2px solid black;
+    cursor: pointer;
+    transition-property: backgroung-color;
+    transition-duration: 8s;
+    transition-timing-function: ease-in-out;
+}
+#btn6:hover{
+    background-color: #0a1931 ;
+    color: white;
+}
+/* This is box-3 */
+#box3{
+    color: white;
+    padding: 20px;
+    border: 2px solid green;
+    width: 25%;
+    height: 350px;   
+    box-shadow: 2px 2px 14px 0px rgb(134, 132, 132);
+}
+#box3 h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+#box_3_1{
+    color: blue;
+    font-weight: 600;
+}
+#box_3_2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+#btn7{
+    border: none;
+    margin-top: 50px;
+    width: 100%;
+    height: 45px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color:#21cdaa;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#btn7:hover{
+    
+    color: white;
+}
+#btn8{
+    border: none;
+    margin-top: 5px;
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:whitesmoke;
+    border: 2px solid black;
+    cursor: pointer;
+    transition-property: backgroung-color;
+    transition-duration: 8s;
+    transition-timing-function: ease-in-out;
+}
+#btn8:hover{
+    background-color: #0a1931 ;
+    color: white;
+}
+.border{
+    border-radius: 5px;
+}
+.buttons_radius{
+    border-radius: 3px;
+}
+/* this is section 6 */
+#section6{
+    /* border:2px solid yellowgreen; */
+    height: 60px;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+@media screen and (max-width: 800px){
+    #section6{
+        /* border:2px solid yellowgreen; */
+        height: 60px;
+        width: 100%;
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: purple;
+        font-size: 40px;
+    }
+}
+
+
+
+
+
